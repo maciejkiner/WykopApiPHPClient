@@ -34,8 +34,8 @@ class libs_Wapi
     {
         $this->key = $key;
         $this->secret = $secret;
-        if ($output !== null) {
-            $this->outputFormat = $output;
+        if ($outputFormat !== null) {
+            $this->outputFormat = $outputFormat;
         }
     }
 
